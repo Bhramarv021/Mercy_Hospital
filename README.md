@@ -7,6 +7,8 @@ This is the Hospital Management System (Website / WebApp) developed using J2EE (
 ### TECHNOLOGY STACK
 - Front-end : HTML, CSS 
 - Back-end : JSP (Java Server Pages) , Advance JAVA (JDBC Connectivity)
+- Database : Derby database
+- Server : Glassfish v4.1.1
 
 ### PROJECT DESCRIPTION: 
 - Web application to manage the details of patients, doctors and admin staff in hospital.

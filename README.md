@@ -1,5 +1,29 @@
-# Mercy_Hospital
-This is a Hospital Management System (Website / WebApp) developed using J2EE (Java Enterprise Edition) as backend..
+# Mercy Hospital
+This is the Hospital Management System (Website / WebApp) developed using J2EE (Java Enterprise Edition) as backend.
+
+#### IDE USED 
+- Netbeans
+
+#### TECHNOLOGY STACK
+- Front-end : HTML, CSS 
+- Back-end : JSP (Java Server Pages) , Advance JAVA (JDBC Connectivity)
+
+#### PROJECT DESCRIPTION: 
+- Web application to manage the details of patients, doctors and admin staff in hospital.
+- Patient's can also book appoinment without any worries by just login / register.
+- Doctor's can look-out to on-going and up-comming appoinments by just login to his/ her account and also go throught patient details.
+
+#### Steps to setup this project locally on your desktop
+- Step 1 : Install Apache Netbeans IDE
+- Step 2 : Clone this repo locally
+- Step 3 : Open Netbeans IDE -> File -> New Project -> Java with Maven -> Web Application -> Browse cloned project location 
+- Step 4 : Setup server to Glassfish Server (Recommended Glassfish Version 4.1.1 && Java version 1.7)
+- Step 5 : Click Finish.
+- Step 6 : Goto services tab in Netbeans IDE -> Databases -> Java DB -> Create Database -> Setup Database Name as "Mercy".
+- Step 7 : After that right click on "Mercy" database and click on connect (To start the database services).
+- Step 8 : Then click on APP -> right click on Tables and then start creating your table (You can use given .grab file also).
+- Step 9 : Click on play / run button (Recommended browser : Chrome). 
+- Step 10 : Enjoy the running project.
 
 # Project Snaps
 ![1  Homepage SS1](https://user-images.githubusercontent.com/56185636/139746196-7746a2b7-9613-443f-9937-f3dbe2923d82.png)

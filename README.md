@@ -1,19 +1,19 @@
 # Mercy Hospital
 This is the Hospital Management System (Website / WebApp) developed using J2EE (Java Enterprise Edition) as backend.
 
-#### IDE USED 
+### IDE USED 
 - Netbeans
 
-#### TECHNOLOGY STACK
+### TECHNOLOGY STACK
 - Front-end : HTML, CSS 
 - Back-end : JSP (Java Server Pages) , Advance JAVA (JDBC Connectivity)
 
-#### PROJECT DESCRIPTION: 
+### PROJECT DESCRIPTION: 
 - Web application to manage the details of patients, doctors and admin staff in hospital.
 - Patient's can also book appoinment without any worries by just login / register.
 - Doctor's can look-out to on-going and up-comming appoinments by just login to his/ her account and also go throught patient details.
 
-#### Steps to setup this project locally on your desktop
+### Steps to setup this project locally on your desktop
 - Step 1 : Install Apache Netbeans IDE
 - Step 2 : Clone this repo locally
 - Step 3 : Open Netbeans IDE -> File -> New Project -> Java with Maven -> Web Application -> Browse cloned project location 

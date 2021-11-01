@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <title>Admin Login</title>
+       <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="loginbox">
+<img src="../mercy.jpg" class="images">
+<h1> FIX APPOINTMENT</h1>
+<form action="../Appointment/Appointment.jsp">
+    <table>
+    <tr>
+        <td> Department </td>
+        <td><select name="Department">
+            <option>Nutrition</option>
+            <option>Dental</option>
+            <option>Cardiology</option>
+            <option>Anesthesiology</option>
+            <option>Emergency</option>
+            <option>Child</option>
+            <option>Orthologist</option>
+            <option>Gynechlogist</option>
+            <option>Physiotheropist</option>
+            </select> 
+        </td>
+    </tr>
+    <tr>
+        <td> Appointment Date </td>
+        <td>
+            <input type="date" name="Date" placeholder="Enter Appointment Date">
+        </td> 
+    </tr>
+    
+    <tr> <td>Appointment Time </td>
+        <td>
+<select name="Time">
+    <option>09:00 am - 10:00 am</option>
+    <option>10:00 am - 11:00 am</option>
+    <option>11:00 am - 12:00 pm</option>
+    <option>12:00 pm - 01:00 pm</option>
+    <option>01:00 pm - 02:00 pm</option>
+    <option>02:00 pm - 03:00 pm</option>
+    <option>03:00 pm - 04:00 pm</option>
+    <option>04:00 pm - 05:00 pm</option>
+</select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"> <input type="submit" name="Submit" value="Schedule !"> </td>
+</tr>
+    </table>
+</form>
+</div>
+</body>
+</head>
+</html>

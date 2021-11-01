@@ -1,0 +1,62 @@
+body{
+	background-image: url("../70070253-doctors-wallpapers.jpg");
+        background-repeat: no-repeat;
+	background-size: 100% 700px;
+	background-size: cover;
+}
+.simple-form{
+	text-align: center;
+	margin: 60px 400px;
+}
+#registration{
+	width: 100%;
+        padding: 50px 0px;
+}
+h1
+{
+margin: 0;
+color:white;
+position: relative;
+left:-50px;
+font-size: 30px;
+}
+#Button{
+	width: 600px;
+	padding: 20px;
+	border-radius: 5px;
+	outline: 0px;
+}
+.images
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: 5px;
+left: calc(50% - 50px);
+}
+#button{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#phone{
+	width: 250px;
+	padding: 10px;
+	border-radius: 5px;
+	outline: 0px;
+}
+#but{
+	color: white;
+	font-size: 18px;
+}
+#butt{
+	width: 280px;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #0c6996;
+	border: 2px solid #01010c;
+	color: aliceblue;
+	font-size: 18px;
+}

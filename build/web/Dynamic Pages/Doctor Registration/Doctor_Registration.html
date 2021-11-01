@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration form</title>
+<link rel="stylesheet" type="text/css" href="../Registration_style.css">
+</head>
+<body>
+      <div class="simple-form">
+	<img src="../mercy.jpg" class="images">
+        
+        <form id="registration" action="Doctor_reg JSP.jsp">
+        <select name="Gender" value="Gender" id="button">
+            <option>Male</option>
+            <option>Female</option>
+        </select><br><br>
+        <input type="text" name="F_name" id="button" placeholder="Firstname" required=""><br><br>
+	<input type="text" name="L_name" id="button" placeholder="Lastname"><br><br>
+        <input type="date" name="Dob" id="button" placeholder="DOB"><br><br>
+        <input type="text" name="Add" id="button" placeholder="Address"required=""><br><br>
+        <input type="text" name="City" id="button" placeholder="City" required=""><br><br>
+        <input type="text" name="State" id="button" placeholder="State" required=""><br><br>
+        <input type="number" name="ph_no"  placeholder="Mobile Number" id="phone" required=""><br><br>
+        <input type="text" name="Qualification"  placeholder="Qualification" id="button" required=""><br><br>
+       <!-- <input type="text" name="Department"  placeholder="Department" id="button" required=""><br><br>-->
+        <select name="Department" id="button" required="">
+            <option>Department</option>
+            <option>Nutrition</option>
+            <option>Dental</option>
+            <option>Cardiology</option>
+            <option>Anesthesiology</option>
+            <option>Emergency</option>
+            <option>Child</option>
+            <option>Orthologist</option>
+            <option>Gynechlogist</option>
+            <option>Physiotheropist</option>
+        </select><br><br>
+        <input type="text" name="Avail_days"  placeholder="Availability Days" id="button" required=""><br><br>
+        <!--<input type="checkbox" name="Avail_days" value="MON" > MON 
+        <input type="checkbox" name="Avail_days" value="TUE" > TUE 
+        <input type="checkbox" name="Avail_days" value="WED" > WED 
+        <input type="checkbox" name="Avail_days" value="THU" > THU <br> <br>
+        <input type="checkbox" name="Avail_days" value="FRI" > FRI 
+        <input type="checkbox" name="Avail_days" value="SAT" > SAT 
+        <input type="checkbox" name="Avail_days" value="SUN" > SUN <br><br>-->
+        <!--<input type="text" name="Avail_time"  placeholder="Availability timings" id="button" required=""><br><br>-->
+        <select name="Avail_time" id="button" required="">
+            <option>Availability Timings</option>
+            <option>09:00 a.m. - 01:00 p.m.</option>
+            <option>01:00 p.m. - 04:00 p.m.</option>
+            </select><br><br>
+        <input type="email" name="Eml_id" id="button" placeholder="Email ID" required=""><br><br>
+	<input type="Password" name="P_pwrd" id="button" placeholder="Password" required=""><br><br>
+			
+		<input type="submit" value="Register" id="butt">
+	    </form>
+      </div>
+   </body>	
+ </html>
+

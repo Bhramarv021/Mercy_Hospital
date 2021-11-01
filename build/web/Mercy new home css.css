@@ -1,0 +1,320 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    position: relative;
+    background-image: url(Images/OczdV3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Frame1
+{
+    position: absolute;
+    top:0px;
+    height: 130px;
+    width: 100%;
+    z-index: 5;
+}
+
+#Frame1 #Frame1_RightTop font
+{
+	Font-size:4em;
+	position:absolute;
+	left:400px;
+	color:rgb(225,85,78);
+}
+
+#Frame1_RightTopLogin
+{
+	width:200px;
+	height:50px;
+	position:absolute;
+	right:20px;
+	top:5px;
+}
+
+#Frame1_RightTopLogin button
+{
+	font-size:20px;
+	margin-top:12px;
+	margin-left:20px;
+	padding:5px;
+	color:white;
+	background-color:orange;
+}
+
+#Frame1 #Frame1_RightBottom
+{
+	position:absolute;
+	top:80px;
+	left:30px;
+	width:95%;
+	border-radius:6px;
+	margin:0px;
+	padding:0px;
+        z-index: 5;
+}
+
+#Frame1 #Frame1_RightBottom ul,li
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+
+#Frame1 #Frame1_RightBottom ul li
+{
+        list-style:none;
+	float:left;
+	color:black;
+	margin-left:25px;
+	padding:5px;
+	height:40px;
+	width:170px;
+	line-height:40px;
+	text-align:center;
+	font-size:19px;
+}
+
+#Frame1 #Frame1_RightBottom ul a li
+{
+	color:white;
+        float:left;
+}
+
+#Frame1 #Frame1_RightBottom ul li:hover
+{
+	background-color:yellow;
+        border-radius: 6px;
+        color: green;
+}
+
+#Frame1 #Frame1_RightBottom ul li ul li
+{
+	margin:0.2px;
+	display:none;
+        background-color:#0033cc;
+        position:relative;
+	top:5px;
+	left:-7px;
+        border-radius:4px;
+        opacity:0.9;
+        
+}
+
+#Frame1 #Frame1_RightBottom ul li:hover ul li
+{
+	display:list-item;	
+}
+
+#Frame2
+{
+        position:absolute;
+        top:150px;
+	height:450px;
+	border-radius:6px;
+}
+
+#Frame2 #Frame2_images .cls_img
+{
+	margin-left:30px;
+	border-radius:10px;
+}
+
+#Frame3
+{
+	position:absolute;
+	top:620px;
+	width:100%;
+        background-image: url(Images/FxiLy2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+	height:380px;
+	border-radius:6px;
+}
+
+#Frame3 .txt1
+{
+        color:black;
+        position:absolute;
+	margin-left:25%;
+	margin-top:20px;
+	font-size:4em;
+}
+
+#Frame3 .txt2
+{
+        color:#330033;
+        position:absolute;
+	margin-left:15%;
+	margin-top:110px;
+	font-size:2em;
+}
+
+#Frame3 button
+{
+        position: absolute;
+        top: 160px;
+        left: 34.5%;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        font-size: 25px;
+        border-radius: 6px;
+        font-weight: bold;
+        background-color: orange;
+}
+
+#Frame4
+{
+        position:absolute;
+        background-image: url(Images/uhfBXC.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+	top:950px;
+	width:100%;	
+	height:320px;
+	border-radius:6px;
+}
+
+
+#Frame4 #Frame4_Login_Font
+{
+    
+	position:absolute;
+        color: #fff;
+        top:150px;
+	left:35%;
+	font-size:3em;	
+}
+
+#Frame4 #Frame4_Patient
+{	
+        padding:20px;
+	margin:20px;
+        color: white;
+	position:absolute;
+	left:560px;
+        font-size: 2em;
+	border-radius:30px;
+	line-height:1.5;
+	letter-spacing:1px;
+	background-color:blue;
+        
+}
+#Frame4 a{
+        text-decoration:none;
+        color:#ff6633;
+}
+
+#Frame4 #Frame4_Admin
+{
+	padding:20px;
+	margin:20px;
+        color: white;
+	position:absolute;
+	left:200px;
+        top:200px;
+        font-size: 2em;
+	border-radius:30px;
+	line-height:1.5;
+	letter-spacing:1px;
+	background-color:blue;
+}
+
+#Frame4 #Frame4_Doctor
+{
+	padding:20px;
+	margin:20px;
+        color: white;
+	position:absolute;
+	right:200px;
+        top:200px;
+        font-size: 2em;
+	border-radius:30px;
+	line-height:1.5;
+	letter-spacing:1px;
+	background-color:blue;
+}
+/*
+#Frame5
+{
+	position:absolute;
+	top:1380px;
+	width:100%;
+	height:300px;
+	border-radius:6px;      
+}
+
+#Frame5 #fnt
+{
+	//text-align:center;
+        position: absolute;
+        top:5px;
+        left:34.5%;
+        font-size: 40px;
+        font-style: italic;
+}
+
+#Frame5 #Frame5_DocInfo
+{
+	height:220px;
+	border:2px solid grey;
+	width:200px;
+	position:absolute;
+	top:22%;
+	left:150px;
+}
+
+#Frame5 #Frame5_Profile_division
+{
+	height:120px;
+	border:2px solid green;
+	width:60%;
+	position:absolute;
+	left:26.5%;
+	top:22%;
+	border-radius:4px;
+}
+*/
+
+#Frame5
+{
+	position:absolute;
+	width:100%;
+	height:100px;
+	color:white;
+        top:1270px;
+        background-color:black;
+}
+
+#Frame5 font
+{
+	font-size:15px;
+	text-align:center;
+}
+
+#Frame5 img
+{
+	position:relative;
+	top:5px;
+}
+
+#Frame5 ul
+{
+	list-style:none;
+}
+
+#Frame5 li
+{
+	float:left;
+	margin-left:120px;
+}
+
+
